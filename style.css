@@ -373,3 +373,46 @@ footer p {
 .prev { left: 15px; }
 .next { right: 15px; }
 
+/* ================= LEGENDA DO SLIDE ================= */
+.slide {
+  position: absolute;
+  inset: 0;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  padding: 18px 22px;
+
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.35),
+    transparent
+  );
+
+  color: #fff;
+  text-align: left;
+
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Título da legenda */
+.caption h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  color: #00eaff;
+  margin-bottom: 4px;
+  text-shadow: 0 0 12px rgba(0, 234, 255, 0.9);
+}
+
+/* Texto da legenda */
+.caption p {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
