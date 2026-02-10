@@ -417,9 +417,12 @@ footer p {
 }
 
 
-.
 
-.solutions-rh {
+
+
+
+
+.solutions {
   padding: 90px 20px;
   text-align: center;
 }
@@ -430,7 +433,7 @@ footer p {
   opacity: 0.85;
 }
 
-.rh-cards {
+.solutions-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 26px;
@@ -438,35 +441,36 @@ footer p {
   margin: auto;
 }
 
-.rh-card {
+.solution-card {
   padding: 30px;
   border-radius: 18px;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(0,170,255,0.4);
   box-shadow: 0 0 35px rgba(0,170,255,0.25);
   transition: 0.35s;
-  position: relative;
 }
 
-.rh-card:hover {
+.solution-card:hover {
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 0 55px rgba(0,170,255,0.6);
 }
 
-.rh-card h3 {
+.solution-card h3 {
   color: #00aaff;
   font-family: 'Orbitron', sans-serif;
   margin-bottom: 12px;
 }
 
-.rh-card p {
+.solution-card p {
   opacity: 0.85;
   margin-bottom: 14px;
 }
 
-.rh-card span {
+.solution-card span {
   font-size: 12px;
   color: #00aaff;
   opacity: 0.7;
 }
+
+
 
