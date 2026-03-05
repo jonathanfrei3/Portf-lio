@@ -558,7 +558,7 @@ footer p {
 /* ================= TÍTULO SOBRE A IMAGEM ================= */
 .affiliate-card h3 {
   position: absolute;
-  bottom: 317px; /* alinhado dentro da imagem */
+  bottom: 322px; /* alinhado dentro da imagem */
   left: 30px;
   right: 30px;
   font-family: 'Orbitron', sans-serif;
@@ -637,6 +637,7 @@ footer p {
   }
 
 }
+
 
 
 
