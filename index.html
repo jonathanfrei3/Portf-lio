@@ -418,6 +418,139 @@
     </p>
   </section>
 
+
+
+
+
+
+
+  
+<!-- VITRINE AFILIADOS -->
+<section class="affiliate">
+  <h2>🛍️ Loja Dark Tech informática</h2>
+
+  <p class="affiliate-desc">
+    Compre agora mesmo nossos produtos via Shopee, Mercado  Livre e Shein e receba no conforto  da sua casa.
+    *Alguns links são afiliados.*
+  </p>
+
+  <div class="affiliate-grid">
+
+    <!-- PRODUTO 1 -->
+    <div class="affiliate-card">
+          <div class="product-slider">
+  <img src="1.jpg" class="product-slide active">
+  <img src="2.jpg" class="product-slide">
+  <img src="3.jpg" class="product-slide">
+  <img src="4.jpg" class="product-slide">
+  <img src="5.jpg" class="product-slide">
+  <img src="6.jpg" class="product-slide">
+          </div>
+      <h3>Teclado Gamer RGB</h3>
+      
+      <a href="https://onelink.shein.com/31/5id30tblwx2i" target="_blank" class="btn-affiliate">
+        Comprar na Shopee
+      </a>
+    </div>
+
+    <!-- PRODUTO 2 -->
+    <div class="affiliate-card">
+          <div class="product-slider">
+  <img src="1.jpg" class="product-slide active">
+  <img src="2.jpg" class="product-slide">
+  <img src="3.jpg" class="product-slide">
+  <img src="4.jpg" class="product-slide">
+  <img src="5.jpg" class="product-slide">
+  <img src="6.jpg" class="product-slide">
+          </div>
+      <h3>Camisa Tech Minimalista</h3>
+      <p></p>
+      <a href="https://onelink.shein.com/31/5id30tblwx2i" target="_blank" class="btn-affiliate">
+        Comprar na Shein
+      </a>
+    </div>
+
+    <!-- PRODUTO 3 -->
+    <div class="affiliate-card">
+         <div class="product-slider">
+  <img src="1.jpg" class="product-slide active">
+  <img src="2.jpg" class="product-slide">
+  <img src="3.jpg" class="product-slide">
+  <img src="4.jpg" class="product-slide">
+  <img src="5.jpg" class="product-slide">
+  <img src="6.jpg" class="product-slide">
+          </div>
+      <h3>Mouse Gamer Profissional</h3>
+      <p></p>
+      <a href="https://onelink.shein.com/31/5id30tblwx2i" target="_blank" class="btn-affiliate">
+        Comprar na Shopee
+      </a>
+    </div>
+
+
+ <!-- PRODUTO 1 -->
+    <div class="affiliate-card">
+          <div class="product-slider">
+  <img src="1.jpg" class="product-slide active">
+  <img src="2.jpg" class="product-slide">
+  <img src="3.jpg" class="product-slide">
+  <img src="4.jpg" class="product-slide">
+  <img src="5.jpg" class="product-slide">
+  <img src="6.jpg" class="product-slide">
+          </div>
+      <h3>Teclado Gamer RGB</h3>
+      
+      <a href="https://onelink.shein.com/31/5id30tblwx2i" target="_blank" class="btn-affiliate">
+        Comprar na Shopee
+      </a>
+    </div>
+
+
+<!-- PRODUTO 2 -->
+    <div class="affiliate-card">
+          <div class="product-slider">
+  <img src="1.jpg" class="product-slide active">
+  <img src="2.jpg" class="product-slide">
+  <img src="3.jpg" class="product-slide">
+  <img src="4.jpg" class="product-slide">
+  <img src="5.jpg" class="product-slide">
+  <img src="6.jpg" class="product-slide">
+          </div>
+      <h3>Camisa Tech Minimalista</h3>
+      <p></p>
+      <a href="https://onelink.shein.com/31/5id30tblwx2i" target="_blank" class="btn-affiliate">
+        Comprar na Shein
+      </a>
+    </div>
+
+
+ <!-- PRODUTO 3 -->
+    <div class="affiliate-card">
+         <div class="product-slider">
+  <img src="1.jpg" class="product-slide active">
+  <img src="2.jpg" class="product-slide">
+  <img src="3.jpg" class="product-slide">
+  <img src="4.jpg" class="product-slide">
+  <img src="5.jpg" class="product-slide">
+  <img src="6.jpg" class="product-slide">
+          </div>
+      <h3>Mouse Gamer Profissional</h3>
+      <p></p>
+      <a href="https://onelink.shein.com/31/5id30tblwx2i" target="_blank" class="btn-affiliate">
+        Comprar na Shopee
+      </a>
+    </div>
+
+
+
+
+  </div>
+</section>
+
+
+
+  
+  
   <!-- FOOTER -->
   <footer>
     <div class="footer-top">
@@ -434,10 +567,31 @@
   </footer>
 
 
+
+
+  
+
 <script src="slider.js"></script>
 
+<script>
+document.querySelectorAll(".product-slider").forEach(slider => {
+
+  let slides = slider.querySelectorAll(".product-slide");
+  let index = 0;
+
+  setInterval(() => {
+    slides[index].classList.remove("active");
+    index = (index + 1) % slides.length;
+    slides[index].classList.add("active");
+  }, 2500);
+
+});
+</script>
+
+  
 </body>
 </html>
+
 
 
 
